@@ -102,6 +102,7 @@ plugin_attr:
   prometheus:
     export_uri: /apisix/metrics
 ```
+或直接修改/usr/local/apisix/apisix/plugins/prometheus.lua，找到/apisix/prometheus/metrics，并修改为：/apisix/metrics
 
 ### Grafana 面板
 
